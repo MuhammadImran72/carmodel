@@ -25,8 +25,7 @@ export default function AboutUs() {
         </div>
       </section>
 
-      
-
+  
       <AboutIntroSec />
       <TeamMembers />
         <History />
