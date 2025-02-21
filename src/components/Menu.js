@@ -1,6 +1,6 @@
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import clmlogo from "../images/CLM-TYRES-LOGO.webp";
+import clmlogo from "../images/CLMLogo.png";
 import TopMenu from "./TopMenu";
 
 export default function Menu() {
@@ -8,7 +8,7 @@ export default function Menu() {
     <>
       <TopMenu />
 
-      <Navbar expand="lg">
+      <Navbar expand="lg" className="mainmenu">
         <Container >
           {/* Logo */}
           <Navbar.Brand as={Link} to="/">
