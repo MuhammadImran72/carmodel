@@ -1,5 +1,5 @@
 import { FaPhoneAlt, FaEnvelope, FaPaperPlane, FaFacebookF, FaLinkedinIn, FaInstagram } from "react-icons/fa";
-import foterlogo from "../images/ClmFooterpng";
+import foterlogo from "../images/CLMTYRESFOOTERLOGO.webp";
 
 export default function Footer() {
   return (
