@@ -1,9 +1,9 @@
 import { FaPhoneAlt, FaEnvelope, FaPaperPlane, FaFacebookF, FaLinkedinIn, FaInstagram } from "react-icons/fa";
-import foterlogo from "../images/CLMTYRESFOOTERLOGO.webp";
+import foterlogo from "../images/ClmFooterpng";
 
 export default function Footer() {
   return (
-    <section className="footerouter">
+    <section className="footeroutermain">
       <div className="container">
         <div className="row">
           <div className="col-lg-3">

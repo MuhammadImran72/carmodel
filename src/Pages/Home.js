@@ -4,6 +4,8 @@ import History from "../components/History";
 import Faqs from "../components/Faqs";
 import OurMission from "../components/OurMission";
 import ImageSlider from "../components/ImageSlider";
+import HowToBuyTyres from "../components/HowToBuyTyres";
+import WhyChooseUs from "../components/WhyChooseUs";
 export default function Home() {
   return (
     <div>
@@ -13,6 +15,8 @@ export default function Home() {
       <ImageSlider />
       <TyresCompany />
       <History />
+   <WhyChooseUs />
+      <HowToBuyTyres />
       <Faqs />
       {/* <VehicleDataShow /> */}
       

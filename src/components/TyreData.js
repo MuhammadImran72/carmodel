@@ -1,6 +1,6 @@
-import Mazzini from "../images/mazzini-logo.webp";
-import Falken from "../images/falken-logo.webp";
-import Michelin from "../images/michelin-logo.webp";
+import bridgestone from "../images/bridgestone-logo.png";
+import apollo from "../images/apollo-logo.png";
+import bfgoodrich from "../images/bfgoodrich-logo.png";
 import Mazzinityre from "../images/mazzini-eco.png";
 import Falkentyre from "../images/falken-ziex.png";
 import Michelintyre from "../images/michelin-primacy.png";
@@ -15,7 +15,7 @@ export default [
     {
         id: 1,
         brandImg: {
-            src: Mazzini,
+            src: bridgestone,
             alt: "Mazzini Logo",
         },
         tyreImage: Mazzinityre,
@@ -28,7 +28,7 @@ export default [
     {
         id: 2,
         brandImg: {
-            src: Falken,
+            src: apollo,
             alt: "Falken Logo",
         },
         tyreImage: Falkentyre,
@@ -41,7 +41,7 @@ export default [
     {
         id: 3,
         brandImg: {
-            src: Michelin,
+            src: bfgoodrich,
             alt: "Michelin Logo",
         },
         tyreImage: Michelintyre,
@@ -54,7 +54,7 @@ export default [
     {
         id: 4,
         brandImg: {
-            src: Michelin,
+            src: bfgoodrich,
             alt: "Michelin Logo",
         },
         tyreImage: Michelintyre,
@@ -67,7 +67,7 @@ export default [
     {
         id: 5,
         brandImg: {
-            src: Falken,
+            src: apollo,
             alt: "Falken Logo",
         },
         tyreImage: Falkentyre,
@@ -81,7 +81,7 @@ export default [
     {
         id: 6,
         brandImg: {
-            src: Mazzini,
+            src: bridgestone,
             alt: "Mazzini Logo",
         },
         tyreImage: Mazzinityre,

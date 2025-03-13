@@ -4,18 +4,19 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper/modules";
-import autogrip from "../images/autogrip-logo.webp";
-import gtradial from "../images/gt-radial-logo.webp";
-import runway from "../images/runway-logo.webp";
-import michelinbrand from "../images/michelin-logo-brand.webp";
-import falkenbrand from "../images/falken-logo-brand.webp";
-const images = [autogrip, gtradial, michelinbrand, falkenbrand, runway];
+import accelera from "../images/accelera-logo.png";
+import apollo from "../images/apollo-logo.png";
+import bfgoodrich from "../images/bfgoodrich-logo.png";
+import bridgestone from "../images/bridgestone-logo.png";
+import continental from "../images/continental-logo.png";
+import avon from "../images/avon-logo.png";
+const images = [accelera, apollo, bridgestone, continental, bfgoodrich , avon];
 
 const ImageSlider = () => {
   return (
     <section className="commonhomepagespacetopandbottom brandsmainbox">
-      <div className="container">
-        <div className="commonheading text-center mb-4">
+      <div className="container-fluid">
+        <div className="tyrebrandsssheading ">
           <h3>Tyre Brands</h3>
         </div>
         <div className="w-full max-w-4xl mx-auto p-4 m-3">
@@ -25,13 +26,13 @@ const ImageSlider = () => {
             slidesPerView={1}
             breakpoints={{
               640: { slidesPerView: 1 },
-              768: { slidesPerView: 2 },
-              1024: { slidesPerView: 4 },
+              768: { slidesPerView: 3 },
+              1024: { slidesPerView: 5 },
             }}
             pagination={{ clickable: true }}
             autoplay={{ delay: 3000, disableOnInteraction: false }}
             loop
-            className="rounded-lg shadow-lg"
+            className="rounded-lg"
           >
             {images.map((src, index) => (
               <SwiperSlide key={index}>

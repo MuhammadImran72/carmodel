@@ -26,7 +26,7 @@ export default function Faqs() {
           </div>
         </div>
         <div className="row">
-          <div className="col-lg-10 m-auto">
+          <div className="col-lg-12 ">
           <div className="accordion accordion-flush" id="accordionFlushExample">
       {faqs.map((faq, index) => (
         <div className="accordion-item rounded-3 border-0 shadow mb-2" key={index}>
