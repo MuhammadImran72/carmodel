@@ -25,7 +25,7 @@ p {
 
 /* top menu css */
 .topmenuouterbox {
-    background-color: #DDDEE0;
+    background-color: #E3E41A;
     text-align: center;
     padding: 5px 0px;
 }
@@ -133,7 +133,7 @@ a.nav-link {
     color: #000;
 }
 .registertabsss .nav-tabs  .nav-link.active {
-    background-color: #241F62;
+    background-color: #E3E41A;
     color: #fff !important;
 }
 
@@ -158,8 +158,8 @@ a.nav-link {
     font-weight: 500;
 }
 form.sameline .input-group-text{
-    background-color: #F4CF17;
-    border: 1px solid #F4CF17;
+    background-color: #E3E41A;
+    border: 1px solid #E3E41A;
     border-radius: 0px;
    
 }
@@ -170,8 +170,8 @@ form.sameline input.form-control {
 
 }
 button.btn.searchbtnss {
-    background-color: #F4CF17;
-    border: 1px solid #F4CF17;
+    background-color: #E3E41A;
+    border: 1px solid #E3E41A;
     color: #fff;
     font-size: 20px;
     font-family: 'heavyNexa';
@@ -241,19 +241,19 @@ button.btn.searchbtnss {
     background: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border: 2px solid #F4CF17;
+    border: 2px solid #E3E41A;
     margin: 0px auto;
     width: 31% !important;
     transition: 0.8s ease;
     
   }
   .servicesbox:hover{
-    background-color: #F4CF17;
+    background-color: #E3E41A;
     transform: scale(1.05);
     transition: 0.8s ease;
   }
   .servicesbox h3 {
-    color: #F4CF17;
+    color: #E3E41A;
     font-size: 30px;
     font-family: "Assistant", serif;
     font-weight: 600;
@@ -266,11 +266,11 @@ button.btn.searchbtnss {
 }
 /* brand tyres section css */
 .brandsmainbox{
-    background-color: #241F62;
+    background-color: #E3E41A;
     }
 
     .tyrebrandsssheading h3{
-        color: #D1D2D4;
+        color: #241F62;
         font-size: 40px;
         font-family: "Assistant", serif;
         font-weight: 700;
@@ -290,14 +290,11 @@ button.btn.searchbtnss {
     .whychoosemain:hover{
         transform: scale(1.05);
         box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-        background-color: #241F62;
-        border: 2px solid #241F62;
+        background-color: #E3E41A;
         transition: 0.8s ease all;
     }
 
-    .whychoosemain:hover h5 ,  .whychoosemain:hover p{ 
-        color: #E3E41A;
-    }
+
     .whychoosemain h5 {
         font-family: Assistant;
         font-weight: 700;
@@ -306,6 +303,7 @@ button.btn.searchbtnss {
         height: 80px;
         text-align: center;
         margin: 30px 0px;
+        color: #241F62;
     }
 /* comapny tyres section css */
 .maintyrcompanybox{
@@ -318,7 +316,7 @@ transition: 0.8s ease all;
 }
 
 .maintyrcompanybox:hover{
-    border: 4px solid #F4CF17;
+    border: 4px solid #E3E41A;
     transform: translateY(-20px);
 }
 .imagesamebox {
@@ -354,7 +352,7 @@ transition: 0.8s ease all;
 }
 
 .buytypresss {
-    background-color: #241F62;
+    background-color: #E3E41A;
     padding: 70px;
 }
 .buymainbox {
@@ -550,7 +548,7 @@ text-decoration: none;
 }
 
 .yellowbox {
-    background-color: #241F62;
+    background-color: #E3E41A;
     text-align: center;
     padding: 100px 30px;
 }
@@ -559,14 +557,14 @@ text-decoration: none;
     font-size: 40px;
     font-weight: 700;
     margin-top: 80px;
-    color: #E3E41A;
+    color: #241F62;
 }
 
 .yellowbox  p{
     font-family: "Assistant", serif;
     font-size: 30px;
     font-weight: 700;
-    color: #E3E41A;
+    color: #241F62;
   
 }
 .blackbox{
@@ -616,7 +614,7 @@ text-decoration: none;
   }
   
 .accordion-button {
-    border:2px solid #241F62 !important;
+    border:2px solid #E3E41A !important;
     color: #241F62 !important ;
 }
 .accordion-button:not(.collapsed) {
