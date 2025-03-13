@@ -8,7 +8,7 @@ export default function Brands() {
   return (
     <section className="commonhomepagespacetopandbottom brandsmainbox">
       <div className="container">
-        <div className="commonheading text-center mb-4">
+        <div className="brandmainheading">
           <h3>Tyre Brands</h3>
         </div>
 

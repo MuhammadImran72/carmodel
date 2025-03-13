@@ -47,7 +47,7 @@ img.img-fluid.tyrelogo {
 }
 
 a.nav-link {
-    color: #E3E41A;
+    color:  #DDDEE0; 
     font-family: "Racing Sans One", serif;
     font-size: 20px;
     font-weight: 400;
@@ -60,7 +60,7 @@ a.nav-link {
 }
 
 .nav-link:hover {
-    color: #DDDEE0 !important; /* Highlight color on hover */
+    color: #E3E41A !important; /* Highlight color on hover */
   }
 
 
@@ -69,8 +69,8 @@ a.nav-link {
 /* hero section css */
 
 .heroobox{
-    background-image: url("./images/car-4048220_1280.jpg");
-    background-position: center bottom;
+    background-image: url("./images/clmtyresbanner.png");
+    background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 800px;
@@ -84,7 +84,7 @@ a.nav-link {
     font-family: "Assistant", serif;
     font-size: 64px;
     font-weight: 700;
-    color: #F4CF17;
+    color:#D1D2D4;
     text-transform: capitalize;
     margin-bottom: 30px;
     letter-spacing: 1.5px;
@@ -97,19 +97,19 @@ a.nav-link {
 }
 
 .registertabsss h2 {
-    color: #fff;
+    color: #D1D2D4;
     font-family: Assistant;
     font-size: 30px;
     font-weight: 700;
     text-align: center;
     margin-bottom: 30px;
-    background-color: #0a0a0a3d;
+    
 
 }
 .registertabsss {
     box-shadow: rgb(255 255 255 / 56%) 0px 22px 70px 4px;
     padding: 50px;
-    background-color: transparent;
+    background-color: #241f6263;
    
 }
 .registertabsss .nav-tabs {
@@ -133,12 +133,15 @@ a.nav-link {
     color: #000;
 }
 .registertabsss .nav-tabs  .nav-link.active {
-    background-color: #000;
-    color: #fff;
+    background-color: #241F62;
+    color: #fff !important;
 }
 
 .registertabsss .nav-tabs .nav-link.active:hover{
     color: #fff !important;
+}
+.registertabsss .nav-tabs .nav-link:hover{
+    color: #000 !important;
 }
 .registertabsss .tab-content {
     padding: 20px 5px;
@@ -229,7 +232,7 @@ button.btn.searchbtnss {
     text-transform: capitalize;
     line-height: 1.2;
     word-spacing: 1px;
-    color: #000;
+    color: #241F62;
 }
   .servicesbox {
     padding: 50px 40px !important;
@@ -581,7 +584,7 @@ text-decoration: none;
     font-size: 40px;
     font-weight: 700;
     margin-top: 30px;
-    color: #000;
+    color: #241F62;
     line-height: 1.2;
     margin-bottom: 30px;
 }

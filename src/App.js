@@ -1,7 +1,7 @@
 
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Routes, Route ,useParams  , Link} from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route ,useParams  } from 'react-router-dom';
 import Home from './Pages/Home';
 import TyresBrand from './Pages/TyresBrand';
 
