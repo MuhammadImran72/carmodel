@@ -829,6 +829,17 @@ select#select {
     text-align: right;
   
 }
+
+button.navbar-toggler.collapsed {}
+
+button.navbar-toggler.collapsed{
+  border-color: white !important; /* Change the border color */
+}
+
+
+.navbar-toggler-icon {
+  filter: invert(1); /* Makes it white */
+}
 @media only screen and (max-width: 1280px) {
     img.companylogo {
         max-width: 150px;
