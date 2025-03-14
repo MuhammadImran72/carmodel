@@ -6,12 +6,17 @@ export default function Footer() {
     <section className="footeroutermain">
       <div className="container">
         <div className="row">
-          <div className="col-lg-3">
+          <div className="col-lg-3 logoobox">
             <img
               src={foterlogo}
               alt="CLM Tyres"
               className="img-fluid footertyrelogo"
             />
+
+            <p>
+            CLM Tyres – Fast, reliable, and affordable mobile tyre fitting service across London and the UK. Call us today or book online for expert tyre replacements at your convenience.
+
+            </p>
           </div>
           <div className="col-lg-2">
 
@@ -96,7 +101,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="row">
+        <div className="row d-flex justify-content-center align-items-baseline">
           <div className="col-lg-4">
             <div className="iconsfooterboxbotoms">
               <ul>
@@ -105,7 +110,7 @@ export default function Footer() {
               </ul>
             </div>
           </div>
-          <div className="col-lg-8">
+          <div className="col-lg-8 footerbotomdesc">
             <p>CLM • All Rights Reserved</p>
           </div>
         </div>

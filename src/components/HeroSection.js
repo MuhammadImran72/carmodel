@@ -21,18 +21,16 @@ export default function HeroSection() {
     <section className="heroobox">
       <div className="container">
         <div className="row">
-          <div className="col-lg-6">
+          <div className="col-lg-7">
             <div className="heroright">
-              <h1>CLM Tyres</h1>
+              
+              <h1>CLM Tyres – Your Trusted Mobile Tyre Fitting Service in the UK</h1>
               <p>
-                We’re an established local business offering a drive in and an
-                internet booking service. You don’t pay online, just place your
-                booking and you’ll be able to select a date to come in and have
-                your tyres fitted and make a payment in the normal way.
+              Looking for reliable mobile tyre fitting in London and the UK? CLM Tyres brings high-quality, affordable tyre solutions directly to your doorstep. Whether you need premium or cheap tyre brands, 4x4 tyres, or emergency replacements, we’re here to keep you moving safely and efficiently.
               </p>
             </div>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-5">
             <div className="registertabsss">
               <h2>Enter Vehicle Registration</h2>
               <Tabs defaultActiveKey="registration" id="uncontrolled-tab-example">

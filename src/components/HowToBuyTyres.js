@@ -8,23 +8,23 @@ export default function HowToBuyTyres() {
     const steps = [
         {
             image: tyreonlinee,
-            title: "Select Your Tyres Online",
-            description: "Find the right Tyres for vehicle using our easy online search tool"
+            title: "Find the Right Tyres",
+            description: "Use our easy online tool or contact us directly to find the perfect tyres for your vehicle, whether it’s for a car, van, or 4x4."
         },
         {
             image: bookyourappointment,
-            title: "Book Your Appointment",
-            description: "Choose convenient time for Tyre Fitting"
+            title: "Book Your Fitting Appointment",
+            description: "Choose a time and place that suits you. Our mobile tyre fitters will come to your preferred location."
         },
         {
             image: mobiletyres,
-            title: "Mobile Tyre Fitting",
-            description: "Get expert Tyre fitting at home or at our workshop"
+            title: "Get Your Tyres Fitted",
+            description: "Our team will arrive on time to fit your new tyres quickly and professionally, ensuring everything is road-safe."
         },
         {
             image: secureOnline,
-            title: "Secure Online Payment",
-            description: "Pay safely online with our secure payment gateway."
+            title: "Enjoy Hassle-Free Service",
+            description: "Pay securely online or on-site, and hit the road with confidence, knowing your tyres are fitted by professionals."
         }
     ];
 

@@ -8,11 +8,11 @@ export default function Faqs() {
     };
   
     const faqs = [
-      { question: "What is your return policy?", answer: "You can return items within 30 days of purchase with a receipt." },
-      { question: "Do you offer international shipping?", answer: "Yes, we ship to select countries worldwide." },
-      { question: "How can I track my order?", answer: "You can track your order using the tracking number provided in the confirmation email." },
-      { question: "What payment methods do you accept?", answer: "We accept credit cards, PayPal, and bank transfers." },
-      { question: "How do I reset my password?", answer: "Click on 'Forgot Password' on the login page and follow the instructions." },
+      { question: "How much does mobile tyre fitting cost?", answer: "Our prices vary depending on your tyre size, type, and location. We offer affordable rates without hidden fees." },
+      { question: "Do you offer same-day tyre fitting?", answer: "Yes! In most cases, we can offer same-day mobile tyre fitting across London and the UK." },
+      { question: "What types of tyres do you supply?", answer: "We stock a wide range, including cheap tyres, premium 4x4 tyres, van tyres, and winter tyres." },
+      { question: "Can you fit tyres at my home or workplace?", answer: "Absolutely! Our service is designed for convenience—we’ll come to your home, workplace, or any safe location." },
+      { question: "Do you offer emergency tyre replacement services?", answer: "Yes, we provide 24-hour emergency mobile tyre fitting in London and surrounding areas. If you're stuck with a flat tyre, our team will reach you quickly to get you back on the road safely." },
     ];
 
   return (

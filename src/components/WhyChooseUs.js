@@ -7,23 +7,23 @@ export default function WhyChooseUs() {
     const steps = [
         {
             image: experttyrefiting,
-            title: "Expert Tyre Fitting Services",
-            description: "Find the right Tyres for vehicle using our easy online search tool"
+            title: "Convenient Mobile Tyre Fitting",
+            description: "We come to you—whether you're at home, work, or stuck on the road. Our mobile tyre fitting service saves you time and hassle."
         },
         {
             image: mobiletyres,
             title: "Extensive Tyre Range",
-            description: "Choose a convenient time for Tyre Fitting"
+            description: "We stock a wide selection of new tyres, including 4x4 tyres, van tyres, winter tyres, and more to suit every vehicle and budget."
         },
         {
             image: faircompetive,
-            title: "Fair & Competitive Pricing",
-            description: "Get the best deals for vehicle Tyres without compromising quality"
+            title: "Affordable Prices",
+            description: "We offer competitive prices on both cheap and premium tyre brands without compromising on quality."
         },
         {
             image: customersatisfaction,
-            title: "Customer Satisfaction Guaranteed",
-            description: "We are committed to providing the best customer service"
+            title: "24/7 Emergency Service",
+            description: "Flat tyre in the middle of the night? We offer 24-hour mobile tyre fitting in London and surrounding areas for your peace of mind."
         }
     ];
 
@@ -33,7 +33,7 @@ export default function WhyChooseUs() {
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="commonheading spacebtm">
-                            <h3>Why Choose Us?</h3>
+                            <h3>Why Choose CLM Tyres?</h3>
                         </div>
                     </div>
                 </div>

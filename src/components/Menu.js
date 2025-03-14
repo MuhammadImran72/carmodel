@@ -24,10 +24,10 @@ export default function Menu() {
               <Nav.Link as={Link} to="/" className="nav-link">
                 Home
               </Nav.Link>
-              <Nav.Link as={Link} to="/aboutus" className="nav-link">
+              <Nav.Link as={Link} to="/" className="nav-link">
                 About Us
               </Nav.Link>
-              <Nav.Link as={Link} to="/tyresbrand" className="nav-link">
+              <Nav.Link as={Link} to="/" className="nav-link">
                 Tyres Brand
               </Nav.Link>
               <Nav.Link as={Link} to="/" className="nav-link">

@@ -9,18 +9,7 @@ export default function OurMission() {
               <h3> Our Mission</h3>
 
               <p>
-                We’re an established local business offering a drive in and an
-                internet booking service. You don’t pay online, just place your
-                booking and you’ll be able to select a date to come in and have
-                your tyres fitted and make a payment in the normal way.We’re an
-                established local business offering a drive in and an internet
-                booking service. You don’t pay online, just place your booking
-                and you’ll be able to select a date to come in and have your
-                tyres fitted and make a payment in the normal way.We’re an
-                established local business offering a drive in and an internet
-                booking service. You don’t pay online, just place your booking
-                and you’ll be able to select a date to come in and have your
-                tyres fitted and make a payment in the normal way.{" "}
+              At CLM Tyres, our mission is simple: to offer fast, convenient, and affordable mobile tyre fitting services for drivers across the UK. We’re dedicated to delivering top-notch tyre solutions with exceptional customer service—whether you’re stuck on the roadside or just need a routine tyre replacement at home or work.
               </p>
             </div>
           </div>
