@@ -465,7 +465,7 @@ span.orderinfo {
 font-family: "Assistant", serif;
 font-size: 30px;
 font-weight: 600;
-  color: #F4CF17;
+  color: #E3E41A;
   margin-bottom: 14px;
   letter-spacing: 1px;
   word-spacing: 1px;
@@ -489,7 +489,7 @@ text-decoration: none;
 }
 .spacefooter {
     padding-top: 100px;
-    border-bottom: 3px solid #F4CF17;
+    border-bottom: 3px solid #E3E41A;
 }
 
 .iconsfooterboxbotoms ul {

@@ -4,13 +4,14 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper/modules";
-import accelera from "../images/accelera-logo.png";
+import autogrip from "../images/autogrip-logo.png";
+import michelin from "../images/michelin-logo.png";
 import apollo from "../images/apollo-logo.png";
 import bfgoodrich from "../images/bfgoodrich-logo.png";
 import bridgestone from "../images/bridgestone-logo.png";
 import continental from "../images/continental-logo.png";
 import avon from "../images/avon-logo.png";
-const images = [accelera, apollo, bridgestone, continental, bfgoodrich , avon];
+const images = [bfgoodrich , bridgestone ,continental, apollo , avon,autogrip,   michelin];
 
 const ImageSlider = () => {
   return (

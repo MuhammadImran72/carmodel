@@ -63,15 +63,15 @@ export default function Footer() {
             <div className="iconsfooterboxbotoms">
               <ul>
                 <li>
-                  <FaPhoneAlt style={{ color: "#f5d00e", fontSize: "1.5em" }} />
+                  <FaPhoneAlt style={{ color: "#E3E41A", fontSize: "1.5em" }} />
                   <a href="tel:+447123456789">+44 7123 456789</a>
                 </li>
                 <li>
-                  <FaEnvelope style={{ color: "#f5d00e", fontSize: "1.5em" }} />
+                  <FaEnvelope style={{ color: "#E3E41A", fontSize: "1.5em" }} />
                   <a href="mailto:info@tyresshope.com">info@tyresshope.com</a>
                 </li>
                 <li>
-                  <FaPaperPlane style={{ color: "#f5d00e", fontSize: "1.5em" }} />
+                  <FaPaperPlane style={{ color: "#E3E41A", fontSize: "1.5em" }} />
                   <a href="#">Unit 51 Barton Road, MK2 2BH</a>
                 </li>
               </ul>
