@@ -1,8 +1,8 @@
+import AboutFaqs from "../components/AboutFaqs";
 import AboutIntroSec from "../components/AboutIntroSec";
-import Faqs from "../components/Faqs";
 import History from "../components/History";
 import TeamMembers from "../components/TeamMembers";
-
+import Aboutintroimage from "../images/homeourmission.png";
 export default function AboutUs() {
   return (
     <>
@@ -11,13 +11,16 @@ export default function AboutUs() {
           <div className="row">
             <div className="col-lg-12">
               <div className="commonbannerbox">
-                <h1>About Us </h1>
+                <h5>About CLM Tyres </h5>
+                <h1>Trusted Mobile Tyre Fitting</h1>
                 <p>
-                  We’re an established local business offering a drive in and an
-                  internet booking service. You don’t pay online, just place
-                  your booking and you’ll be able to select a date to come in
-                  and have your tyres fitted and make a payment in the normal
-                  way.
+                  CLM Tyres is your trusted mobile tyre fitting service
+                  provider. We ensure quick and reliable tyre replacement
+                  services across London and the UK. Choose from our large
+                  selection of new tyres, from budget-friendly options to
+                  premium brands, ensuring safety and performance for all
+                  vehicles. With our convenient mobile service, we come to
+                  you—at home, work, or on the roadside.
                 </p>
               </div>
             </div>
@@ -25,13 +28,37 @@ export default function AboutUs() {
         </div>
       </section>
 
-  
       <AboutIntroSec />
+
+      <section className="commonhomepagespacetopandbottom">
+        <div className="container">
+          <div className="row d-flex justify-content-center align-items-center">
+            <div className="col-lg-6">
+              <img
+                src={Aboutintroimage}
+                alt="  Ceo’s Message"
+                className="img-fluid ceoimage "
+              />
+            </div>
+            <div className="col-lg-6">
+              <div className="ceobox">
+                <h3> Our Commitment to Quality</h3>
+
+                <p>
+                  At CLM Tyres, we prioritize safety and reliability. Every tyre
+                  we supply meets UK safety standards, ensuring you get durable
+                  and roadworthy tyres. Our experienced fitters provide
+                  professional installation, balancing, and advice on
+                  maintaining your tyres for optimal performance.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <TeamMembers />
-        <History />
-        <Faqs />
-        
-    
+      <History />
+      <AboutFaqs />
     </>
   );
 }
