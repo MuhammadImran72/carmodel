@@ -30,7 +30,7 @@ export default function AboutUs() {
 
       <AboutIntroSec />
 
-      <section className="commonhomepagespacetopandbottom">
+      <section className="commonhomepagespacetopandbottom  mobilereserve">
         <div className="container">
           <div className="row d-flex justify-content-center align-items-center">
             <div className="col-lg-6">
