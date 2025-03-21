@@ -633,7 +633,7 @@ text-decoration: none;
 /* about page css */
 
 .aboutusbanner{
-    background-image: url("./images/footer-bg-classic.png");
+    background-image: url("./images/aboutbanner.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -703,6 +703,35 @@ text-decoration: none;
     margin-bottom: 30px;
 }
 
+.ctaaboutus{
+    background-image: url("./images/ClmFooterLogobanner.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 600px;
+   
+}
+.aboutctainner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 600px;
+  
+}
+.aboutctainner h3{
+    font-family: "Assistant", serif;
+    color: #D1D2D4;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.aboutctainner p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
 /* checkout page css */
 
 .productmainbox {

@@ -1,7 +1,7 @@
+import AboutCTA from "../components/AboutCTA";
 import AboutFaqs from "../components/AboutFaqs";
 import AboutIntroSec from "../components/AboutIntroSec";
-import History from "../components/History";
-import TeamMembers from "../components/TeamMembers";
+import WhyChooseUs from "../components/WhyChooseUs";
 import Aboutintroimage from "../images/homeourmission.png";
 export default function AboutUs() {
   return (
@@ -11,7 +11,7 @@ export default function AboutUs() {
           <div className="row">
             <div className="col-lg-12">
               <div className="commonbannerbox">
-                <h5>About CLM Tyres </h5>
+                <h5> CLM Tyres </h5>
                 <h1>Trusted Mobile Tyre Fitting</h1>
                 <p>
                   CLM Tyres is your trusted mobile tyre fitting service
@@ -29,6 +29,8 @@ export default function AboutUs() {
       </section>
 
       <AboutIntroSec />
+
+      <AboutCTA />
 
       <section className="commonhomepagespacetopandbottom  mobilereserve">
         <div className="container">
@@ -56,8 +58,7 @@ export default function AboutUs() {
           </div>
         </div>
       </section>
-      <TeamMembers />
-      <History />
+      <WhyChooseUs />
       <AboutFaqs />
     </>
   );
