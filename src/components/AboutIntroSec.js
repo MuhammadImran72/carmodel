@@ -6,7 +6,7 @@ export default function AboutIntroSec() {
         <div className="row">
             <div className="col-lg-6">
                 <div className="ceobox">
-            <h3>  Ceo’s Message</h3>
+            <h3>  Our Vision    </h3>
                
               
                 <p>At CLM Tyres, we understand that time is valuable. Our goal is to make mobile tyre fitting as seamless as possible for our customers. Whether you're at home, work, or on the roadside, our experienced team will arrive with the right tyres and tools to get you back on the road quickly and safely.
