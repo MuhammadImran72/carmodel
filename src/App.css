@@ -704,7 +704,7 @@ text-decoration: none;
 }
 
 .ctaaboutus{
-    background-image: url("./images/ClmFooterLogobanner.png");
+    background-image: url("./images/aboutctaa.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -714,10 +714,20 @@ text-decoration: none;
 }
 .aboutctainner {
     display: flex;
-    align-items: center;
+    
     justify-content: center;
     flex-direction: column;
     height: 600px;
+    padding-right: 50px;
+  
+}
+.aboutctainnerright {
+    display: flex;
+    
+    justify-content: center;
+    flex-direction: column;
+    height: 600px;
+
   
 }
 .aboutctainner h3{
@@ -731,6 +741,18 @@ text-decoration: none;
     color: #fff;
     font-size: 20px;
     font-weight: 400;
+}
+
+.ctabtnss {
+    text-decoration: none;
+    background-color: #E3E41A;
+    color: #fff;
+    text-align: center;
+    padding: 7px 25px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 600;
 }
 /* checkout page css */
 

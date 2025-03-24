@@ -2,7 +2,7 @@ import AboutCTA from "../components/AboutCTA";
 import AboutFaqs from "../components/AboutFaqs";
 import AboutIntroSec from "../components/AboutIntroSec";
 import WhyChooseUs from "../components/WhyChooseUs";
-import Aboutintroimage from "../images/homeourmission.png";
+import Aboutintroimage from "../images/OurCommitment.png";
 export default function AboutUs() {
   return (
     <>

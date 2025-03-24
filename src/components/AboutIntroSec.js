@@ -1,4 +1,4 @@
-import Aboutintroimage from "../images/homeourmission.png";
+import Aboutintroimage from "../images/aboutourvission.png";
 export default function AboutIntroSec() {
   return (
     <section className="commonhomepagespacetopandbottom"> 
